@@ -1,0 +1,14 @@
+<div>
+  Seconds: {{ seconds }}
+</div>
+<br />
+<div>
+  <button routerLink="/ya_clock">Go to ya_clock</button>
+  <br />
+  <br />
+  <div
+    [ngClass]="deactivate_status_class()"
+    [innerHTML]="deactivate_status_string()"
+  >
+  </div>
+</div>
