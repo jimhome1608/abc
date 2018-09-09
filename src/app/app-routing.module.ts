@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AppComponent } from './app.component';
+import { AppComponent } from './core/app.component';
 import { ClockComponent } from './clock.component/clock.component';
 import { YaClockComponent } from './ya-clock/ya-clock.component';
 import { AppGuardGuard } from './app-guard';

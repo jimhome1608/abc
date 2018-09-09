@@ -1,10 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { AppComponent } from './core/app.component';
 import { AppRoutingModule, } from './/app-routing.module';
-import { ClockComponent } from './clock.component/clock.component';
-import { YaClockComponent } from './ya-clock/ya-clock.component';
+import { ClockComponent } from './components/clock.component/clock.component';
+import { YaClockComponent } from './components/ya-clock/ya-clock.component';
 
 @NgModule({
   declarations: [
